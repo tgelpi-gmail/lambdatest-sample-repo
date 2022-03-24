@@ -33,7 +33,7 @@ public class LambdaTest {
             accessKey = System.getProperty("accessKey");
             driver= new RemoteWebDriver(new URL("https://"+username+":"+accessKey+"@hub.lambdatest.com/wd/hub"), capabilities);
         } catch (MalformedURLException e) {
-            System.out.println("Invalid grid URL");
+            System.out.println("Invalid grid URL gurl!!!");
         }
     }
 
